@@ -1,0 +1,227 @@
+* {
+    /*全局选择器*/
+    margin: 0px;
+    /*外边距*/
+    padding: 0px;
+    /*内边距*/
+}
+
+body {
+    /*主体*/
+    color: rgb(42, 61, 79);
+    font-family: 楷体;
+    background-image: linear-gradient(125deg,#aeae3385,#2fae6491,#297fb977,#e74d3c6c,#a449cb7c);
+    background-size: 400%;
+    animation: bgmove 10s infinite;
+    /*背景颜色*/
+}
+@keyframes bgmove {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.footer {
+    /*尾部*/
+    clear: both;
+    /*清楚浮动*/
+    width: 100%;
+    height: 70px;
+    background-color: rgb(87, 156, 241);
+    color: rgb(99, 34, 34);
+    font: italic 14px/20px 宋体;
+    /*文字样式*/
+    text-align: center;
+}
+
+#fi1 {
+    /*尾部图片*/
+    width: 100px;
+    height: 70px;
+    float: right;
+    /*右浮动*/
+    padding: 0px;
+    /*内边距*/
+}
+
+/*主体部分*/
+
+.donghua {
+    /* 可根据需要调整容器高度 */
+    border-radius: 5px;
+    /*边框弧度*/
+    width: 800px;
+    height: 400px;
+    /* 轮播图居中 */
+    margin: 1rem auto;
+    /* 隐藏超出展示容器的内容 */
+    overflow: hidden;
+    position: relative;
+    /*图片隐藏*/
+}
+
+#photo {
+    width: 4000px;
+    overflow: hidden;
+    position: absolute;
+    /* 开启弹性盒，让图片横向排列 */
+    display: flex;
+    animation: bj 8s linear infinite;
+    /*动画设置*/
+}
+
+#photo img {
+    width: 800px;
+    height: 50%;
+    padding: 0px 0px 0px 0px;
+}
+
+@keyframes bj {
+    /*轮播图动画*/
+
+    0%,
+    20% {
+        margin-left: 0px;
+    }
+
+    25%,
+    40% {
+        margin-left: -800px;
+    }
+
+    45%,
+    60% {
+        margin-left: -1600px;
+    }
+
+    65%,
+    80% {
+        margin-left: -2400px;
+    }
+
+    85%,
+    95% {
+        margin-left: -3200px;
+    }
+
+    100% {
+        margin-left: 0px;
+    }
+}
+
+#zhuti-left {
+    /*主体左边部分*/
+    float: left;
+    padding: 5px;
+    width: 165px;
+    height: 900px;
+    margin-right: 20px;
+    margin-left: 60px;
+    margin-bottom: 80px;
+    background-color: rgb(199, 199, 199);
+}
+
+#zhuti-left img {
+    /*左边图片设置*/
+    width: 160px;
+    height: 150px;
+}
+
+#zhuti-left img:hover {
+    transform: scale(1.1);
+}
+
+#zhuti-left p {
+    /*左边文字设置*/
+    letter-spacing: 2px;
+    /*字间距*/
+    text-indent: 2em;
+    line-height: 1.5em;
+}
+
+#zhuti-right {
+    /*右边整体设置*/
+    float: left;
+    /*左浮动*/
+    width: 60%;
+    height: 900px;
+    padding: 5px;
+    background-color: rgb(201, 201, 201);
+    margin-left: 90px;
+}
+
+#zhuti-right p {
+    /*右边文字设置*/
+    text-align: left;
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+}
+
+#zhuti-right img {
+    /*右边图片设置*/
+    width: 220px;
+    height: 180px;
+    border: 2px #cc66 ridge;
+}
+
+#zhuti-right ul {
+    /*右边列表设置图片*/
+    list-style-type: none;
+    /*列表样式无*/
+}
+
+#zhuti-right li {
+    float: left;
+}
+
+
+.scroll-container {
+    /* 可根据需要调整容器高度 */
+    border-radius: 5px;
+    /*边框弧度*/
+
+    height: 180px;
+    /* 轮播图居中 */
+    margin: 1rem auto;
+    /* 隐藏超出展示容器的内容 */
+    overflow: hidden;
+    position: relative;
+    /*图片隐藏*/
+}
+
+.scroll-list {
+    list-style: none;
+    animation: scroll 40s linear infinite;
+    height: 300px;
+    overflow: hidden;
+    position: absolute;
+    /* 开启弹性盒，让图片横向排列 */
+    display: flex;
+
+}
+
+.scroll-list li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.scroll-list li:last-child {
+    margin-right: 0;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

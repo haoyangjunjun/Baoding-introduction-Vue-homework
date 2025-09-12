@@ -1,0 +1,363 @@
+* {
+    /*全局选择器*/
+    margin: 0px;
+    padding: 0px;
+}
+
+.h21{/*标题*/
+    font-family:"微软雅黑";
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    line-height:200px;
+    text-transform:uppercase;
+    position: relative;
+    color:#ffffff65;
+    text-shadow:
+    0px 1px 0px #c0c0c065,
+    0px 2px 0px #b0b0b064,
+    0px 3px 0px #a0a0a074,
+    0px 4px 0px #9090906c,
+    0px 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+table{
+    background-color: #b5b1b163;
+}
+
+body {
+    /*主体*/
+    background-color: rgb(235, 225, 225);
+}
+
+img {
+    /*图片设置*/
+    border-radius: 15px;
+    /*边框弧度*/
+
+}
+
+span {
+    /*>>>行内设置*/
+    float: right;
+}
+
+span p {
+    /*>>>行内段落设置*/
+    font-size: small;
+}
+
+span a {
+    /*链接设置*/
+    color: rgb(0, 0, 0);
+}
+
+span a:hover {
+    /*鼠标划过时链接变化*/
+    color: rgb(77, 248, 10);
+}
+
+.zhuti h2 {
+    font-family: 楷体;
+    /*字体样式*/
+    margin-top: 20px;
+}
+
+.zhuti {
+    /*主体设置*/
+    text-align: center;
+    /*文本居中*/
+    margin: 0px 200px 0px 200px;
+
+}
+
+#baishi {
+    /*白石介绍*/
+    margin-top: 20px;
+    height: 200px;
+
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+
+#baishi p {
+    letter-spacing: 2px;
+    /*字简介*/
+    text-indent: 2em;
+    /*缩进*/
+    line-height: 1.5em;
+    /*行高设置*/
+    font-size: large;
+
+}
+
+#baishi img {
+    /*白石图片*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+#baishi img:hover {
+    /*鼠标划过时*/
+    transform: scale(1.2);
+
+}
+
+#yesanpo {
+    /*野三坡介绍*/
+    margin-top: 20px;
+    height: 200px;
+
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+
+#yesanpo p {
+    /*野三坡段落*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+
+}
+
+#yesanpo img {
+    /*野三坡图片*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+#yesanpo img:hover {
+    /*鼠标野三坡图片时*/
+    transform: scale(1.2);
+
+}
+
+#langyashan {
+    /*狼牙山介绍*/
+    margin-top: 20px;
+    height: 200px;
+
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+
+#langyashan p {
+    /*狼牙山段落*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+
+}
+
+#langyashan img {
+    /*狼牙山图片*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+#langyashan img:hover {
+    /*鼠标划过狼牙山图片*/
+    transform: scale(1.2);
+
+}
+
+#bailixia {
+    /*百里峡介绍*/
+    margin-top: 20px;
+    height: 200px;
+
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+
+#bailixia p {
+    /*百里峡段落设置*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+
+}
+
+#bailixia img {
+    /*百里峡图片*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+#bailixia img:hover {
+    /*鼠标划过时百里峡图片*/
+    transform: scale(1.2);
+
+}
+
+#qingxiling {
+    /*清西陵介绍*/
+    margin-top: 20px;
+    height: 200px;
+
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+
+#qingxiling p {
+    /*清西陵段落设置*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+
+}
+
+#qingxiling img {
+    /*清西陵图片*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+#qingxiling img:hover {
+    /*鼠标划过清西陵图片*/
+    transform: scale(1.2);
+
+}
+
+#ranzhuang {
+    /*冉庄地道战遗址介绍*/
+    margin-top: 20px;
+    height: 200px;
+
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+
+#ranzhuang p {
+    /*冉庄地道战遗址段落设置*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+
+}
+
+#ranzhuang img {
+    /*冉庄地道战遗址图片设置*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+#ranzhuang img:hover {
+    /*鼠标划过冉庄地道战遗址图片*/
+    transform: scale(1.2);
+
+}
+
+#changxiling {
+    /*昌西陵介绍*/
+    margin-top: 20px;
+    height: 200px;
+
+    font-size: x-large;
+    /*字体大小*/
+    padding: 10px;
+    font-family: 楷体;
+}
+
+#changxiling p {
+    /*昌西陵段落设置*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+
+}
+
+#changxiling img {
+    /*昌西陵图片设置*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+#changxiling img:hover {
+    /*鼠标划过昌西陵图片设置*/
+    transform: scale(1.2);
+
+}
+
+#yugudong {
+    /*鱼谷洞介绍*/
+    margin-top: 20px;
+    height: 200px;
+
+    font-size: x-large;
+    padding: 10px;
+    font-family: 楷体;
+}
+
+#yugudong p {
+    /*鱼谷洞段落设置*/
+    letter-spacing: 2px;
+    text-indent: 2em;
+    line-height: 1.5em;
+    font-size: large;
+
+}
+
+#yugudong img {
+    /*鱼谷洞图片设置*/
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+#yugudong img:hover {
+    /*鼠标划过鱼谷洞图片设置*/
+    transform: scale(1.2);
+
+}
+
+.footer {
+    /*尾部*/
+    margin-top: 10px;
+    clear: both;
+    /*清除浮动*/
+    width: 100%;
+    height: 70px;
+    background-color: rgb(87, 156, 241);
+    color: rgb(28, 41, 99);
+    font: italic 14px/20px 宋体;
+    /*字体设置*/
+    text-align: center;
+}
+
+.footer p {
+    /*底部段落设置*/
+    margin-top: 20px;
+}
+
+.zhuti a {
+    /*主体超链接设置*/
+    text-decoration: none;
+}

@@ -1,0 +1,46 @@
+* {
+    /*全局选择器*/
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    /*主体*/
+    color: rgb(0, 0, 0);
+    font-family: 楷体;
+    background-color: rgb(218, 202, 202);
+}
+
+.footer {
+    /*尾部*/
+    margin-top: 10px;
+    clear: both;
+    /*清除浮动*/
+    width: 100%;
+    height: 70px;
+    background-color: rgba(87, 156, 241, 0.413);
+    color: rgb(28, 41, 99);
+    font: italic 14px/20px 宋体;
+    /*字体设置*/
+    text-align: center;
+}
+
+.footer p {
+    /*尾部段落*/
+    margin-top: 20px;
+}
+
+#fi1 {
+    /*尾部图片*/
+    width: 100px;
+    height: 70px;
+    float: right;
+    padding: 0px;
+}
+
+#main {
+    /*主体内容设置*/
+    font-size: large;
+    color: rgb(6, 2, 69);
+    margin: 30px 100px 30px 100px;
+}
