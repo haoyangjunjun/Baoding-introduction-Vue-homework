@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 import HomeH from '../components/HomeH.vue';
 import IntroductionA from '../components/introduction.vue';
 import FooD from '../components/FooD.vue';
@@ -13,7 +13,7 @@ const routes = [
 ];
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHashHistory('/Baoding-introduction-Vue-homework/'),
     routes,
 });
 

@@ -7,6 +7,8 @@
 
 对图片的地址进行了修改.
 
+修改了跳转地址错误问题.
+
 ### Project setup
 ```
 npm install
