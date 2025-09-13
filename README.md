@@ -5,6 +5,8 @@
 
 ![Vue Tech Stack](https://img.shields.io/badge/Tech-Vue%203-green?logo=vuedotjs&logoSize=auto)
 
+对图片的地址进行了修改.
+
 ### Project setup
 ```
 npm install
