@@ -9,6 +9,8 @@
 
 修改了跳转地址错误问题.
 
+修改了网站标题。
+
 ### Project setup
 ```
 npm install
